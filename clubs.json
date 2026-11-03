@@ -1,0 +1,756 @@
+{
+  "source": "https://www.ligaportugal.pt",
+  "retrieved": "2026-10-17",
+  "seasons": {
+    "20252026": [
+      "322",
+      "56",
+      "88",
+      "100",
+      "176",
+      "112",
+      "135",
+      "619",
+      "141",
+      "157",
+      "162",
+      "226",
+      "241",
+      "98",
+      "285",
+      "278",
+      "303",
+      "337"
+    ],
+    "20262027": [
+      "60",
+      "56",
+      "88",
+      "176",
+      "112",
+      "135",
+      "619",
+      "141",
+      "157",
+      "162",
+      "125",
+      "226",
+      "241",
+      "98",
+      "285",
+      "278",
+      "303",
+      "337"
+    ]
+  },
+  "teams": [
+    {
+      "id": "60",
+      "name": "Académico",
+      "fullName": "Académico de Viseu Futebol Clube – Futebol, SAD",
+      "abbr": "AVFC",
+      "primary": "#1b1b1b",
+      "secondary": "#ffffff",
+      "logo": "assets/club-60.webp",
+      "kit": "assets/kit-60.webp",
+      "founded": 1914,
+      "source": "https://www.ligaportugal.pt/team/60/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/Emb_Ac_Viseu_AF_200x200_300_849bd92d0b.png",
+      "history": {
+        "city": "Viseu",
+        "bestFinish": "13.º lugar",
+        "bestSeasons": "1980/81",
+        "summary": "O Académico representa a tradição academista de Viseu, ligada ao Fontelo. O clube histórico chegou pela primeira vez à I Divisão em 1978.",
+        "milestone": "O 13.º lugar de 1980/81 é a melhor classificação do Académico histórico no principal escalão.",
+        "note": "O clube atual dá continuidade à identidade do antigo Académico.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://academicodeviseu.pt/historia.php"
+          },
+          {
+            "label": "Classificações históricas",
+            "url": "https://pt.wikipedia.org/wiki/Primeira_Divis%C3%A3o_de_1980%E2%80%9381"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "339 118 1684 2126",
+        "width": 2362,
+        "height": 2362,
+        "ratio": 0.7920978363123237
+      }
+    },
+    {
+      "id": "56",
+      "name": "Casa Pia AC",
+      "fullName": " Casa Pia Atlético Clube - Futebol SDUQ, Lda",
+      "abbr": "CPAC",
+      "primary": "#161b1e",
+      "secondary": "#e90713",
+      "logo": "assets/club-56.webp",
+      "kit": "assets/kit-56.webp",
+      "founded": 1920,
+      "foundedSource": "https://www.ligaportugal.pt/noticias/28189/liga-portugal-felicita-casa-pia-ac-pelo-106.o-aniversario",
+      "source": "https://www.ligaportugal.pt/team/56/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/Emb_Casa_Pia_AC_AF_200x200_300_aa0e9e9667.png",
+      "history": {
+        "city": "Lisboa",
+        "bestFinish": "8.º lugar",
+        "bestSeasons": "1938/39 · campeonato com 8 equipas",
+        "summary": "Fundado por antigos alunos da Casa Pia de Lisboa, o clube ficou conhecido como os gansos. Regressou à I Liga em 2022, após 83 anos de ausência.",
+        "milestone": "O regresso de 2022/23 abriu um novo ciclo na elite. Nas épocas 2023/24 e 2024/25 terminou em 9.º.",
+        "note": "O 8.º lugar de 1938/39 corresponde ao último lugar dessa edição.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://www.ligaportugal.pt/noticias/28189/liga-portugal-felicita-casa-pia-ac-pelo-106.o-aniversario"
+          },
+          {
+            "label": "Classificações históricas",
+            "url": "https://www.ligaportugal.pt/backoffice/assets/Casa_Pia_AC_Santa_Clara_Jornada_30_0846b6a7e8.pdf"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "68 25 460 545",
+        "width": 596,
+        "height": 596,
+        "ratio": 0.8440366972477065
+      }
+    },
+    {
+      "id": "88",
+      "name": "CD Nacional",
+      "fullName": "Clube Desportivo Nacional - Futebol, SAD",
+      "abbr": "CDN",
+      "primary": "#6e00c7",
+      "secondary": "#fdae00",
+      "logo": "assets/club-88.webp",
+      "kit": "assets/kit-88.webp",
+      "founded": 1910,
+      "source": "https://www.ligaportugal.pt/team/88/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/Emb_CD_Nacional_AF_200x200_300_a3a56992f4.png",
+      "history": {
+        "city": "Funchal",
+        "bestFinish": "4.º lugar",
+        "bestSeasons": "2003/04 · 2008/09",
+        "summary": "Fundado em 1910, o Nacional é um dos grandes emblemas da Madeira. A primeira subida à I Divisão aconteceu em 1988 e abriu caminho a várias campanhas europeias.",
+        "milestone": "Em 2003/04 terminou em 4.º e apurou-se pela primeira vez para a Taça UEFA.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://www.cdnacional.pt/historia/"
+          },
+          {
+            "label": "Classificações históricas",
+            "url": "https://www.ligaportugal.pt/backoffice/assets/CD_Nacional_Rio_Ave_FC_Jornada_19_ae0dd0ba1c.pdf"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "72 72 2217 2217",
+        "width": 2362,
+        "height": 2362,
+        "ratio": 1
+      }
+    },
+    {
+      "id": "176",
+      "name": "Estoril Praia",
+      "fullName": "Estoril Praia - Futebol, SAD",
+      "abbr": "EPF",
+      "primary": "#f9ec07",
+      "secondary": "#024b98",
+      "logo": "assets/club-176.webp",
+      "kit": "assets/kit-176.webp",
+      "founded": 1939,
+      "source": "https://www.ligaportugal.pt/team/176/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/Emb_Estoril_Praia_044249cca4.png",
+      "history": {
+        "city": "Estoril",
+        "bestFinish": "4.º lugar",
+        "bestSeasons": "2013/14",
+        "summary": "Os canarinhos nasceram em 1939 e jogam no António Coimbra da Mota. O amarelo e o azul identificam um clube que passou dos escalões secundários às provas europeias.",
+        "milestone": "Com Marco Silva, chegou ao 5.º lugar em 2012/13 e ao 4.º em 2013/14, disputando a Liga Europa.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://pt.wikipedia.org/wiki/Grupo_Desportivo_Estoril_Praia"
+          },
+          {
+            "label": "Classificações históricas",
+            "url": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/estoril/detalhe/sad-apresenta-resultado-positivo-de-16-milhoes-de-euros-908538"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "93 24 410 547",
+        "width": 596,
+        "height": 596,
+        "ratio": 0.7495429616087751
+      }
+    },
+    {
+      "id": "112",
+      "name": "Estrela Amadora",
+      "fullName": "CFEA - Club Football Estrela, SAD",
+      "abbr": "CFEA",
+      "primary": "#10ae13",
+      "secondary": "#db281c",
+      "logo": "assets/club-112.webp",
+      "kit": "assets/kit-112.webp",
+      "founded": 1932,
+      "source": "https://www.ligaportugal.pt/team/112/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/Emb_CF_Est_Amadora_AF_200x200_300_576b195166.png",
+      "history": {
+        "city": "Amadora",
+        "bestFinish": "7.º lugar",
+        "bestSeasons": "1997/98 · Estrela histórico",
+        "summary": "A identidade tricolor tem raízes no Estrela fundado em 1932. O projeto atual surgiu em 2020 da união com o Sintra Football e regressou à I Liga em 2023.",
+        "milestone": "O Estrela histórico conquistou a Taça de Portugal de 1989/90.",
+        "note": "A classificação e a Taça referem-se ao clube histórico; o projeto atual tem origem em 2020.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://pt.wikipedia.org/wiki/Club_Football_Estrela_da_Amadora"
+          },
+          {
+            "label": "Classificações históricas",
+            "url": "https://www.ligaportugal.pt/pages/embaixadores"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "427 177 1627 2127",
+        "width": 2481,
+        "height": 2481,
+        "ratio": 0.764927127409497
+      }
+    },
+    {
+      "id": "135",
+      "name": "FC Alverca",
+      "fullName": "Futebol Clube Alverca - Futebol SAD",
+      "abbr": "ALV",
+      "primary": "#fef15f",
+      "secondary": "#2f70a9",
+      "logo": "assets/club-135.webp",
+      "kit": "assets/kit-135.webp",
+      "founded": 1939,
+      "source": "https://www.ligaportugal.pt/team/135/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/FC_Alverca_280d268be1.png",
+      "history": {
+        "city": "Alverca do Ribatejo",
+        "bestFinish": "11.º lugar",
+        "bestSeasons": "1999/00",
+        "summary": "O clube ribatejano chegou à I Liga em 1998. Depois de cinco presenças na elite, atravessou uma fase de reconstrução a partir dos campeonatos distritais.",
+        "milestone": "A equipa de José Romão terminou em 11.º em 1999/00, o seu melhor registo no principal escalão até 2024/25.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://pt.wikipedia.org/wiki/Futebol_Clube_de_Alverca"
+          },
+          {
+            "label": "Classificações históricas",
+            "url": "https://fairplay.pt/futebol/futebolnacional/fc-alverca-elenco-sonho-19992000/"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "0 0 1861 2364",
+        "width": 1861,
+        "height": 2364,
+        "ratio": 0.7872250423011844
+      }
+    },
+    {
+      "id": "619",
+      "name": "FC Arouca",
+      "fullName": "Futebol Clube de Arouca – Futebol, SDUQ, Lda",
+      "abbr": "FCA",
+      "primary": "#f6e907",
+      "secondary": "#0048a8",
+      "logo": "assets/club-619.webp",
+      "kit": "assets/kit-619.webp",
+      "founded": 1951,
+      "source": "https://www.ligaportugal.pt/team/619/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/Emb_FC_Arouca_AF_200x200_300_ab36fb5518.png",
+      "history": {
+        "city": "Arouca",
+        "bestFinish": "5.º lugar",
+        "bestSeasons": "2015/16 · 2022/23",
+        "summary": "O Arouca cresceu dos campeonatos distritais até chegar à I Liga em 2013. Poucos anos depois, já disputava as competições europeias.",
+        "milestone": "O 5.º lugar de 2015/16 valeu a estreia na Liga Europa. Repetiu a classificação em 2022/23.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://www.rtp.pt/noticias/desporto/arouca-iguala-melhor-classificacao-de-sempre_e1489474"
+          },
+          {
+            "label": "Classificações históricas",
+            "url": "https://www.ligaportugal.pt/backoffice/assets/FC_Arouca_Vitoria_SC_Jornada_21_0f89777837.pdf"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "325 131 1711 2099",
+        "width": 2362,
+        "height": 2362,
+        "ratio": 0.8151500714626012
+      }
+    },
+    {
+      "id": "141",
+      "name": "FC Famalicão",
+      "fullName": "Futebol Clube de Famalicão - Futebol SAD",
+      "abbr": "FCF",
+      "primary": "#052948",
+      "secondary": "#ffffff",
+      "logo": "assets/club-141.webp",
+      "kit": "",
+      "founded": 1931,
+      "source": "https://www.ligaportugal.pt/team/141/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/Emb_FC_Famalicao_AF_200x200_300_af9671a0a4.png",
+      "history": {
+        "city": "Vila Nova de Famalicão",
+        "bestFinish": "6.º lugar",
+        "bestSeasons": "2019/20",
+        "summary": "Fundado em 1931, o Famalicão regressou à I Liga em 2019, depois de 25 anos fora do principal escalão. A época do regresso foi uma das suas mais marcantes.",
+        "milestone": "Terminou 2019/20 em 6.º, numa equipa em que Pedro Gonçalves foi eleito Jogador Jovem do Ano da Liga.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://www.ligaportugal.pt/media/26897/presskit.pdf"
+          },
+          {
+            "label": "Classificações históricas",
+            "url": "https://www.ligaportugal.pt/news/24747/simon-elisor-valeu-troca-de-posicoes"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "105 152 2152 2058",
+        "width": 2362,
+        "height": 2362,
+        "ratio": 1.0456754130223518
+      }
+    },
+    {
+      "id": "157",
+      "name": "FC Porto",
+      "fullName": "Futebol Clube do Porto - Futebol, SAD",
+      "abbr": "FCP",
+      "primary": "#0c3edf",
+      "secondary": "#ffffff",
+      "logo": "assets/club-157.webp",
+      "kit": "assets/kit-157.webp",
+      "founded": 1893,
+      "source": "https://www.ligaportugal.pt/team/157/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/Emb_FC_Porto_AF_200x200_300_0ff1ab3115.png",
+      "history": {
+        "city": "Porto",
+        "bestFinish": "Campeão",
+        "bestSeasons": "Primeiro título da liga: 1934/35",
+        "summary": "Fundado em 1893, o FC Porto construiu uma história de títulos nacionais e europeus. Os dragões são um dos três clubes que nunca desceram da I Liga.",
+        "milestone": "Conquistou a Taça dos Campeões Europeus em 1987 e a Liga dos Campeões em 2004.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://www.ligaportugal.pt/team/157/fc-porto"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "336 45 1690 2272",
+        "width": 2362,
+        "height": 2362,
+        "ratio": 0.7438380281690141
+      }
+    },
+    {
+      "id": "162",
+      "name": "Gil Vicente FC",
+      "fullName": "Gil Vicente Futebol Clube – Futebol, SDUQ, Lda",
+      "abbr": "GVFC",
+      "primary": "#e7230b",
+      "secondary": "#1769a5",
+      "logo": "assets/club-162.webp",
+      "kit": "assets/kit-162.webp",
+      "founded": 1924,
+      "source": "https://www.ligaportugal.pt/team/162/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/Emb_Gil_Vicente_AF_200x200_300_d617d176cd.png",
+      "history": {
+        "city": "Barcelos",
+        "bestFinish": "5.º lugar",
+        "bestSeasons": "1999/00 · 2021/22",
+        "summary": "Fundado em 1924, o Gil Vicente leva o nome do dramaturgo português. Os galos representam Barcelos e chegaram à I Divisão em 1990.",
+        "milestone": "O 5.º lugar de 2021/22 abriu as portas à primeira participação europeia do clube.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://gilvicentefc.pt/historia/"
+          },
+          {
+            "label": "Classificações históricas",
+            "url": "https://www.zerozero.pt/equipa/gil-vicente/historico-competicoes?id_comp=3&op=r"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "357 117 1647 2126",
+        "width": 2362,
+        "height": 2362,
+        "ratio": 0.7746942615239887
+      }
+    },
+    {
+      "id": "125",
+      "name": "Marítimo",
+      "fullName": "Marítimo da Madeira - Futebol, SAD",
+      "abbr": "CSM",
+      "primary": "#30bc57",
+      "secondary": "#e1332c",
+      "logo": "assets/club-125.webp",
+      "kit": "assets/kit-125.webp",
+      "founded": 1910,
+      "source": "https://www.ligaportugal.pt/team/125/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/Emb_Maritimo_M_AF_200x200_300_1b7f65a856.png",
+      "history": {
+        "city": "Funchal",
+        "bestFinish": "5.º lugar",
+        "bestSeasons": "Alcançado em várias épocas, incluindo 2011/12",
+        "summary": "Fundado em 1910, o Marítimo é uma referência do futebol madeirense. O verde-rubro dos Barreiros também tem uma longa ligação às competições europeias.",
+        "milestone": "Venceu o Campeonato de Portugal de 1925/26, competição eliminatória anterior ao campeonato da liga.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://www.ligaportugal.pt/team/125/maritimo-m"
+          },
+          {
+            "label": "Classificações históricas",
+            "url": "https://www.zerozero.pt/equipa/maritimo/historico-competicoes?id_comp=3&op=titles"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "223 117 1916 2127",
+        "width": 2362,
+        "height": 2362,
+        "ratio": 0.9007992477668078
+      }
+    },
+    {
+      "id": "226",
+      "name": "Moreirense FC",
+      "fullName": "Moreirense Futebol Clube – Futebol, SAD",
+      "abbr": "MFC",
+      "primary": "#1c6132",
+      "secondary": "#a89635",
+      "logo": "assets/club-226.webp",
+      "kit": "assets/kit-226.webp",
+      "founded": 1938,
+      "source": "https://www.ligaportugal.pt/team/226/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/MFC_logo_94240ed691.png",
+      "history": {
+        "city": "Moreira de Cónegos",
+        "bestFinish": "6.º lugar",
+        "bestSeasons": "2018/19 · 2023/24",
+        "summary": "O Moreirense nasceu em 1938 e representa Moreira de Cónegos, no concelho de Guimarães. Estreou-se na I Liga em 2002 e tornou-se uma presença habitual no campeonato.",
+        "milestone": "Conquistou a Taça da Liga de 2016/17, o primeiro grande troféu nacional do clube.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://www.ligaportugal.pt/team/226/moreirense-fc"
+          },
+          {
+            "label": "Classificações históricas",
+            "url": "https://www.ligaportugal.pt/video/57655/liga-portugal-betclic-%2833aj%29%3A-resumo-casa-pia-ac-0-1-moreirense-fc"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "9 94 342 172",
+        "width": 360,
+        "height": 360,
+        "ratio": 1.9883720930232558
+      }
+    },
+    {
+      "id": "241",
+      "name": "Rio Ave FC",
+      "fullName": "Rio Ave Futebol Clube - Futebol, SAD",
+      "abbr": "RAFC",
+      "primary": "#21836a",
+      "secondary": "#ffffff",
+      "logo": "assets/club-241.webp",
+      "kit": "assets/kit-241.webp",
+      "founded": 1939,
+      "source": "https://www.ligaportugal.pt/team/241/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/Emb_Rio_Ave_FC_AF_200x200_300_e2e84f5563.png",
+      "history": {
+        "city": "Vila do Conde",
+        "bestFinish": "5.º lugar",
+        "bestSeasons": "1981/82 · 2017/18 · 2019/20",
+        "summary": "Fundado em 1939, o Rio Ave representa Vila do Conde. A década de 2010 trouxe finais nacionais, apuramentos europeus e novos recordes ao clube.",
+        "milestone": "Em 2013/14 disputou as finais da Taça de Portugal e da Taça da Liga. Na época seguinte estreou-se na fase de grupos da Liga Europa.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://rioavefc.pt/clube/historia/"
+          },
+          {
+            "label": "Classificações históricas",
+            "url": "https://pt.wikipedia.org/wiki/Rio_Ave_Futebol_Clube"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "341 171 1680 2020",
+        "width": 2362,
+        "height": 2362,
+        "ratio": 0.8316831683168316
+      }
+    },
+    {
+      "id": "98",
+      "name": "Santa Clara",
+      "fullName": "Santa Clara Açores - Futebol, SAD",
+      "abbr": "CDSC",
+      "primary": "#f60017",
+      "secondary": "#ffffff",
+      "logo": "assets/club-98.webp",
+      "kit": "assets/kit-98.webp",
+      "founded": 1927,
+      "source": "https://www.ligaportugal.pt/team/98/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/CD_Santa_Clara_Emblema_1x1_2de61e70ec.png",
+      "history": {
+        "city": "Ponta Delgada",
+        "bestFinish": "5.º lugar",
+        "bestSeasons": "2024/25",
+        "summary": "O Santa Clara representa os Açores no futebol profissional. Fundado em 1927, chegou pela primeira vez à I Liga em 1999 e à Europa em 2021.",
+        "milestone": "Em 2024/25, acabado de subir, terminou em 5.º com 57 pontos e voltou a apurar-se para as competições europeias.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://www.ligaportugal.pt/team/98/santa-clara"
+          },
+          {
+            "label": "Classificações históricas",
+            "url": "https://www.ligaportugal.pt/backoffice/assets/Vitoria_SC_Santa_Clara_Jornada_8_76d1ac1c15.pdf"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "103 40 390 515",
+        "width": 596,
+        "height": 596,
+        "ratio": 0.7572815533980582
+      }
+    },
+    {
+      "id": "285",
+      "name": "SC Braga",
+      "fullName": "Sporting Clube de Braga - Futebol, SAD",
+      "abbr": "SCB",
+      "primary": "#bf0d1b",
+      "secondary": "#ffffff",
+      "logo": "assets/club-285.webp",
+      "kit": "assets/kit-285.webp",
+      "founded": 1921,
+      "source": "https://www.ligaportugal.pt/team/285/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/Emb_SC_Braga_AF_200x200_300_53d73be09a.png",
+      "history": {
+        "city": "Braga",
+        "bestFinish": "2.º lugar",
+        "bestSeasons": "2009/10",
+        "summary": "Fundado em 1921, o SC Braga afirmou-se como presença regular nas provas europeias. A alcunha de arsenalistas acompanha os seus equipamentos vermelhos e brancos.",
+        "milestone": "Foi vice-campeão em 2009/10 e finalista da Liga Europa em 2010/11.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://scbraga.pt/wp-content/uploads/2019/01/relatoriocontas-20152016.pdf"
+          },
+          {
+            "label": "Classificações históricas",
+            "url": "https://pt.wikipedia.org/wiki/Primeira_Liga_de_2009%E2%80%9310"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "276 107 1810 2147",
+        "width": 2362,
+        "height": 2362,
+        "ratio": 0.8430367955286446
+      }
+    },
+    {
+      "id": "278",
+      "name": "SL Benfica",
+      "fullName": "Sport Lisboa e Benfica - Futebol, SAD",
+      "abbr": "SLB",
+      "primary": "#e21011",
+      "secondary": "#ffffff",
+      "logo": "assets/club-278.webp",
+      "kit": "assets/kit-278.webp",
+      "founded": 1904,
+      "source": "https://www.ligaportugal.pt/team/278/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/Emb_SL_Benfica_AF_200x200_300_0707325542.png",
+      "history": {
+        "city": "Lisboa",
+        "bestFinish": "Campeão",
+        "bestSeasons": "Primeiro título da liga: 1935/36",
+        "summary": "Fundado em 1904, o Benfica cresceu em Lisboa até se tornar um dos clubes mais titulados do país. A águia é o símbolo da sua identidade.",
+        "milestone": "Foi bicampeão europeu em 1960/61 e 1961/62, na era de Eusébio e de uma geração histórica.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://www.ligaportugal.pt/team/278/sl-benfica"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "364 172 1633 2018",
+        "width": 2362,
+        "height": 2362,
+        "ratio": 0.8092170465807731
+      }
+    },
+    {
+      "id": "303",
+      "name": "Sporting CP",
+      "fullName": "Sporting Clube de Portugal - Futebol, SAD",
+      "abbr": "SCP",
+      "primary": "#027f56",
+      "secondary": "#FFFFFF",
+      "logo": "assets/club-303.webp",
+      "kit": "assets/kit-303.webp",
+      "founded": 1906,
+      "source": "https://www.ligaportugal.pt/team/303/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/SPORTING_SITE_a4801efd3b.png",
+      "history": {
+        "city": "Lisboa",
+        "bestFinish": "Campeão",
+        "bestSeasons": "Primeiro título da liga: 1940/41",
+        "summary": "Fundado em 1906, o Sporting tem uma forte tradição na formação de jogadores. O leão e as listas verdes e brancas são as suas marcas mais reconhecidas.",
+        "milestone": "Conquistou a Taça das Taças em 1963/64, o primeiro troféu europeu do clube no futebol.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://www.ligaportugal.pt/team/303/sporting-cp"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "418 119 1529 2127",
+        "width": 2362,
+        "height": 2362,
+        "ratio": 0.7188528443817583
+      }
+    },
+    {
+      "id": "337",
+      "name": "Vitória SC",
+      "fullName": "Vitória Sport Clube - Futebol, SAD",
+      "abbr": "VSC",
+      "primary": "#161b1e",
+      "secondary": "#ffffff",
+      "logo": "assets/club-337.webp",
+      "kit": "assets/kit-337.webp",
+      "founded": 1922,
+      "source": "https://www.ligaportugal.pt/team/337/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/Simbolo_Original_Preto_branco_2f7cd164d2.png",
+      "history": {
+        "city": "Guimarães",
+        "bestFinish": "3.º lugar",
+        "bestSeasons": "1968/69 · 1986/87 · 1997/98 · 2007/08",
+        "summary": "Fundado em 1922, o Vitória tem uma forte ligação à cidade de Guimarães e à figura de D. Afonso Henriques. Os conquistadores contam com uma das bases de adeptos mais presentes do país.",
+        "milestone": "Em 2007/08 terminou em 3.º e chegou à qualificação da Liga dos Campeões. Em 2013 venceu a Taça de Portugal.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://www.ligaportugal.pt/team/337/vitoria-sc"
+          },
+          {
+            "label": "Classificações históricas",
+            "url": "https://www.ligaportugal.pt/noticias/28362/nota-de-pesar-pelo-falecimento-de-emilio-macedo-da-silva"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "443 109 1229 1897",
+        "width": 2115,
+        "height": 2115,
+        "ratio": 0.6478650500790722
+      }
+    },
+    {
+      "id": "322",
+      "name": "AFS",
+      "fullName": "AVS - Futebol SAD",
+      "abbr": "AFS",
+      "primary": "#bc172d",
+      "secondary": "#f09821",
+      "logo": "assets/club-322.webp",
+      "kit": "assets/kit-322.webp",
+      "founded": 2023,
+      "source": "https://www.ligaportugal.pt/team/322/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/Emb_AVS_AF_200x200_300_5c5ea09677.png",
+      "history": {
+        "city": "Vila das Aves",
+        "bestFinish": "16.º lugar",
+        "bestSeasons": "2024/25",
+        "summary": "O projeto AVS surgiu em 2023 com a mudança da SAD do Vilafranquense para a Vila das Aves. É uma entidade distinta do histórico Clube Desportivo das Aves.",
+        "milestone": "Subiu à I Liga logo em 2023/24, através do play-off. Na estreia na elite, em 2024/25, garantiu a permanência num novo play-off.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://pt.wikipedia.org/wiki/AVS_Futebol_SAD"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "318 125 1845 2231",
+        "width": 2481,
+        "height": 2481,
+        "ratio": 0.8269834155087404
+      }
+    },
+    {
+      "id": "100",
+      "name": "CD Tondela",
+      "fullName": "CD Tondela – Futebol SAD",
+      "abbr": "CDT",
+      "primary": "#009444",
+      "secondary": "#facd00",
+      "logo": "assets/club-100.webp",
+      "kit": "",
+      "founded": 1933,
+      "source": "https://www.ligaportugal.pt/team/100/team/ligaportugalbetclic/20262027",
+      "logoSource": "https://www.ligaportugal.pt/backoffice/assets/Emb_CD_Tondela_AF_200x200_300_391877e498.png",
+      "history": {
+        "city": "Tondela",
+        "bestFinish": "11.º lugar",
+        "bestSeasons": "2017/18",
+        "summary": "Fundado em 1933, o Tondela chegou pela primeira vez à I Liga em 2015. A equipa auriverde joga no Estádio João Cardoso e construiu um percurso de várias épocas na elite.",
+        "milestone": "Em 2021/22 chegou pela primeira vez à final da Taça de Portugal, frente ao FC Porto.",
+        "sources": [
+          {
+            "label": "História e palmarés",
+            "url": "https://cdtondela.pt/clube/"
+          },
+          {
+            "label": "Classificações históricas",
+            "url": "https://www.ligaportugal.pt/backoffice/assets/CD_Tondela_Vitoria_SC_Jornada_11_8b6b876a31.pdf"
+          }
+        ]
+      },
+      "logoFrame": {
+        "viewBox": "377 249 1603 1863",
+        "width": 2362,
+        "height": 2362,
+        "ratio": 0.8604401502952228
+      }
+    }
+  ]
+}

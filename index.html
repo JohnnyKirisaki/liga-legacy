@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ <title>Liga Legacy — Desafio Portugal</title>
+ <meta name="description" content="Desafio Football Manager: sê campeão com todos os clubes da Liga Portugal e guarda cada título com o teu MVP.">
+ <meta name="theme-color" content="#027f56">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="Liga Legacy">
+ <meta property="og:locale" content="pt_PT">
+ <meta property="og:title" content="Liga Legacy — Desafio Portugal">
+ <meta property="og:description" content="Sê campeão com todos os clubes da Liga Portugal no Football Manager.">
+ <meta name="twitter:card" content="summary">
+ <link rel="icon" href="favicon.svg" type="image/svg+xml">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@600;700;800&amp;display=swap">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body aria-busy="true">
+ <a class="skip-link" href="#main">Saltar para o conteúdo</a>
+ <aside class="sidebar">
+  <a href="#journey" class="brand" aria-label="Liga Legacy — início"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"><path d="M29 9 51 22v13L39 42"/><path d="M29 9 51 22v13L39 42" transform="rotate(120 32 32)"/><path d="M29 9 51 22v13L39 42" transform="rotate(240 32 32)"/></g></svg></span><span>Liga<span class="brand-light">Legacy</span></span></a>
+  <nav aria-label="Navegação principal">
+   <a href="#journey" data-nav="journey" class="nav-link"><i data-icon="grid"></i><span>O meu desafio</span></a>
+   <a href="#clubs" data-nav="clubs" class="nav-link"><i data-icon="shield"></i><span>Clubes</span><span class="nav-count" id="nav-club-count">18</span></a>
+   <a href="#hall" data-nav="hall" class="nav-link"><i data-icon="trophy"></i><span>Mural</span><span class="nav-count" id="nav-hall-count">0</span></a>
+  </nav>
+  <div class="sidebar-progress"><strong>O teu progresso</strong><div class="progress-track"><span id="side-progress"></span></div><div class="progress-caption"><span id="side-count">0 de 18 títulos</span><strong id="side-percent">0%</strong></div></div>
+  <div class="sidebar-bottom">
+   <button class="side-action" data-action="backup"><i data-icon="download"></i><span>Cópia de segurança</span></button>
+  </div>
+ </aside>
+ <div class="app-shell">
+  <main id="main" tabindex="-1">
+   <section id="journey-view" class="view">
+    <div class="page-heading"><div><h1 tabindex="-1">Desafio Portugal</h1><p id="journey-lead">Sê campeão com os 18 clubes da Liga Portugal.</p></div></div>
+    <section id="hero" class="hero" aria-label="Clube atual"></section>
+    <div class="stats-row" id="stats" hidden></div>
+    <section aria-labelledby="clubs-heading" class="clubs-section"><div class="section-heading"><h2 id="clubs-heading">Clubes</h2><a href="#clubs" class="text-link">Ver todos <i data-icon="arrow"></i></a></div><div id="club-preview" class="club-grid preview-grid"></div></section>
+   </section>
+   <section id="clubs-view" class="view" hidden>
+    <div class="page-heading"><div><h1 tabindex="-1">Clubes</h1><p>Escolhe o próximo clube do desafio.</p></div><button class="secondary-button" data-action="random"><i data-icon="shuffle"></i>Sortear clube</button></div>
+    <div class="club-toolbar">
+     <div class="segmented" role="group" aria-label="Filtrar clubes"><button data-filter="all" aria-pressed="true">Todos <span>18</span></button><button data-filter="available" aria-pressed="false">Sem título <span>18</span></button><button data-filter="completed" aria-pressed="false">Com título <span>0</span></button></div>
+     <label class="search-box"><i data-icon="search"></i><span class="sr-only">Pesquisar clube ou cidade</span><input id="club-search" type="search" placeholder="Clube ou cidade" autocomplete="off"></label>
+    </div>
+    <p id="club-results" class="sr-only" role="status" aria-live="polite"></p>
+    <div id="all-clubs" class="club-grid full-grid"></div>
+    <p id="no-clubs" class="empty-search" hidden>Nenhum clube encontrado. Altera a pesquisa ou o filtro.</p>
+   </section>
+   <section id="hall-view" class="view" hidden>
+    <div class="page-heading"><div><h1 tabindex="-1">Mural de campeões</h1><p id="hall-count">0 títulos</p></div></div>
+    <div id="hall-content"></div>
+   </section>
+   <footer>
+    <span><strong>Liga Legacy</strong> · Desafio Football Manager</span>
+    <span>Dados e emblemas: <a href="https://www.ligaportugal.pt" target="_blank" rel="noopener noreferrer">Liga Portugal <i data-icon="external"></i><span class="sr-only"> (abre num novo separador)</span></a>, consultados em <time id="data-date"></time></span>
+    <a href="trophy-credits.html">Créditos dos troféus</a>
+   </footer>
+  </main>
+ </div>
+ <dialog id="club-dialog" class="dialog club-dialog" aria-labelledby="club-dialog-title"><button class="dialog-close icon-button" data-close aria-label="Fechar"><i data-icon="close"></i></button><div id="club-detail"></div><p class="live-region sr-only" role="status"></p></dialog>
+ <dialog id="win-dialog" class="dialog win-dialog" aria-labelledby="win-title">
+  <button class="dialog-close icon-button" data-close aria-label="Fechar"><i data-icon="close"></i></button>
+  <div class="win-intro"><h2 id="win-title" tabindex="-1">Campeão!</h2><p id="win-subtitle"></p></div>
+  <form id="win-form" novalidate>
+   <div class="win-layout">
+    <div class="win-fields">
+     <label>Épocas até ao título<input id="seasons-input" type="number" inputmode="numeric" min="1" max="999" step="1" placeholder="Ex.: 3"></label>
+     <h3>O teu MVP</h3>
+     <label>Nome do jogador<input id="mvp-name" maxlength="60" autocomplete="off" placeholder="Ex.: João Silva"></label>
+     <div class="field-pair">
+      <label>Número<input id="mvp-number" type="number" inputmode="numeric" min="1" max="99" step="1" placeholder="Ex.: 10"></label>
+      <label>Posição<select id="mvp-position"><option value="">Escolher</option><option value="goalkeeper">Guarda-redes</option><option value="defender">Defesa</option><option value="midfielder">Médio</option><option value="attacker">Avançado</option></select></label>
+     </div>
+     <label>Nacionalidade<select id="mvp-nationality"></select></label>
+     <label class="upload-label"><i data-icon="upload"></i><span id="upload-caption">Carregar fotografia<small>Obrigatória · PNG, JPG ou WebP até 10 MB</small></span><input id="mvp-photo" type="file" accept="image/png,image/jpeg,image/webp"></label>
+     <p id="form-error" class="form-error" role="alert"></p>
+    </div>
+    <div class="card-preview-area"><p class="preview-label">Pré-visualização</p><div id="mvp-preview" class="preview-slot"></div></div>
+   </div>
+   <details class="trophy-picker" open><summary>Troféus conquistados <span id="trophy-summary"></span></summary><div id="trophy-options" class="trophy-options"></div></details>
+   <div class="dialog-actions"><button type="button" id="delete-win" class="danger-button" data-action="delete" hidden><i data-icon="trash"></i>Remover título</button><button type="button" class="quiet-button" data-close>Cancelar</button><button type="submit" id="save-win" class="primary-button"><i data-icon="trophy"></i>Guardar título</button></div>
+  </form>
+  <p class="live-region sr-only" role="status"></p>
+ </dialog>
+ <dialog id="wheel-dialog" class="dialog wheel-dialog" aria-labelledby="wheel-title">
+  <button class="dialog-close icon-button" data-close aria-label="Fechar sorteio"><i data-icon="close"></i></button>
+  <button id="wheel-sound" class="icon-button wheel-sound" aria-label="Som do sorteio" aria-pressed="true"></button>
+  <div class="wheel-heading"><h2 id="wheel-title" tabindex="-1">Sorteio</h2><p id="wheel-status" role="status" aria-live="polite"></p><p id="wheel-passing" class="wheel-passing" aria-hidden="true"></p></div>
+  <div class="wheel-stage"><div class="wheel-rim" aria-hidden="true"><div class="wheel-pointer"></div><div class="wheel-disc-mask"><div id="wheel-disc" class="wheel-disc"></div></div><div class="wheel-hub"><img src="brand-mark.svg" width="42" height="42" alt=""></div></div><div id="wheel-winner" class="wheel-winner" hidden></div></div>
+  <div class="wheel-actions"><button id="wheel-spin" class="secondary-button" disabled><i data-icon="shuffle"></i>Sortear outra vez</button><button id="wheel-pick" class="primary-button" data-action="manage" disabled><i data-icon="flag"></i>Treinar este clube</button></div>
+  <p class="wheel-footnote"><span id="wheel-footnote"></span> · <button id="wheel-profile" class="link-button" data-action="profile" disabled>Ver perfil do clube</button></p>
+  <p class="live-region sr-only" role="status"></p>
+ </dialog>
+ <dialog id="info-dialog" class="dialog info-dialog" aria-labelledby="info-title"><button class="dialog-close icon-button" data-close aria-label="Fechar"><i data-icon="close"></i></button><div id="info-content"></div><p class="live-region sr-only" role="status"></p></dialog>
+ <div id="toast" class="toast" aria-hidden="true"></div><p id="live" class="sr-only" role="status"></p><div id="confetti" aria-hidden="true"></div>
+ <script type="module" src="app.js"></script>
+</body>
+</html>
