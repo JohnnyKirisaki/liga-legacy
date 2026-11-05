@@ -168,12 +168,14 @@ main:focus { outline: none; }
 .hall-empty h1, .hall-empty h2 { font-size: 26px; margin-bottom: 10px; }
 .hall-empty p { max-width: 320px; margin-bottom: 22px; font-size: 15px; color: var(--muted); }
 .hall-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px 24px; margin-bottom: 44px; }
-.hall-entry { min-width: 0; }
-.hall-entry .mvp-card { width: 100%; max-width: 330px; margin: auto; }
-.hall-entry-meta { display: flex; align-items: center; justify-content: space-between; gap: 12px; max-width: 330px; margin: 12px auto 0; }
-.hall-entry-meta h2 { font-size: 16px; letter-spacing: -.3px; }
-.hall-entry-meta p { font-size: 13px; color: var(--muted); }
-@media (hover: hover) and (prefers-reduced-motion: no-preference) { .hall-entry .mvp-card:hover { transform: translateY(-4px) rotate(-.5deg); box-shadow: 0 4px 5px #12292022, 0 24px 32px #12292022; } }
+.hall-entry { position: relative; width: 100%; max-width: 330px; margin-inline: auto; }
+.hall-entry .mvp-card { width: 100%; }
+.hall-entry-edit { position: absolute; inset: 0; border-radius: 15px; }
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .hall-entry { transition: transform .25s; }
+  .hall-entry:hover { transform: translateY(-4px) rotate(-.5deg); }
+  .hall-entry:hover .mvp-card { box-shadow: 0 4px 5px #12292022, 0 24px 32px #12292022; }
+}
 
 /* MVP card */
 .preview-slot .mvp-card, .card-preview-area .mvp-card { width: 260px; }
@@ -188,7 +190,7 @@ main:focus { outline: none; }
 .card-shirt { display: flex; flex-direction: column; align-items: center; min-width: 44px; max-width: 80px; padding: 7px 7px 9px; background: #101a20d9; border-top: 2px solid #e8dab0; clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%); }
 .card-title-count { font: 800 28px/1 Manrope, sans-serif; letter-spacing: -1.5px; font-variant-numeric: tabular-nums; }
 .shirt-caption { margin-top: 3px; font-size: 11px; letter-spacing: .02em; text-transform: uppercase; color: #efe6c9; }
-.mvp-card-top img { width: 38px; height: 42px; object-fit: contain; filter: drop-shadow(0 2px 3px #0008); }
+.mvp-card-top img { object-fit: contain; filter: drop-shadow(0 2px 3px #0008); }
 .mvp-card-bottom { position: absolute; inset: auto 12px 12px; z-index: 2; }
 .card-player-details { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
 .mvp-position { padding: 3px 8px; border-radius: 6px; background: #ffffff2e; font-size: 11px; font-weight: 700; line-height: 1.4; }

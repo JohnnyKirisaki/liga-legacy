@@ -26,7 +26,7 @@ function trophyCollection(item) {
 }
 export function mvpCard(team, item, id = '') {
  const src = photoUrl(item.photo);
- return `<div ${id ? `id="${id}" ` : ''}class="mvp-card" style="--card-color:${readableAccent(team.primary, team.secondary)};--card-accent:${team.primary};--card-secondary:${team.secondary}"><div class="card-window">${src ? `<img class="mvp-photo" src="${html(src)}" alt="${html(item.name || 'MVP')}" loading="lazy" decoding="async">` : `<div class="mvp-placeholder">${silhouette}</div>`}<div class="mvp-card-top"><div class="card-shirt"><span class="card-title-count">${html(item.seasons || '—')}</span><span class="shirt-caption">${Number(item.seasons) === 1 ? 'época' : 'épocas'}</span></div><img src="${team.logo}" alt="${html(team.name)}" width="38" height="42"></div><div class="mvp-card-bottom"><div class="card-player-details">${positionNames[item.position] ? `<span class="mvp-position" data-position="${item.position}">${positionNames[item.position]}</span>` : ''}<span class="card-shirt-number">N.º ${html(item.number || '—')}</span></div><h3>${html(item.name || 'O teu MVP')}${Object.hasOwn(countries, item.nationality ?? '') ? `<img class="mvp-flag" src="assets/flags/${item.nationality}.svg" alt="${countries[item.nationality]}" title="${countries[item.nationality]}" width="28" height="21">` : ''}</h3>${trophyCollection(item)}</div></div></div>`;
+ return `<div ${id ? `id="${id}" ` : ''}class="mvp-card" style="--card-color:${readableAccent(team.primary, team.secondary)};--card-accent:${team.primary};--card-secondary:${team.secondary}"><div class="card-window">${src ? `<img class="mvp-photo" src="${html(src)}" alt="${html(item.name || 'MVP')}" loading="lazy" decoding="async">` : `<div class="mvp-placeholder">${silhouette}</div>`}<div class="mvp-card-top"><div class="card-shirt"><span class="card-title-count">${html(item.seasons || '—')}</span><span class="shirt-caption">${Number(item.seasons) === 1 ? 'época' : 'épocas'}</span></div><img src="${team.logo}" alt="${html(team.name)}" width="52" height="56"></div><div class="mvp-card-bottom"><div class="card-player-details">${positionNames[item.position] ? `<span class="mvp-position" data-position="${item.position}">${positionNames[item.position]}</span>` : ''}<span class="card-shirt-number">N.º ${html(item.number || '—')}</span></div><h3>${html(item.name || 'O teu MVP')}${Object.hasOwn(countries, item.nationality ?? '') ? `<img class="mvp-flag" src="assets/flags/${item.nationality}.svg" alt="${countries[item.nationality]}" title="${countries[item.nationality]}" width="28" height="21">` : ''}</h3>${trophyCollection(item)}</div></div></div>`;
 }
 export function heroView(summary) {
  const current = club(campaign().active), done = summary.remaining === 0;
@@ -58,9 +58,9 @@ export function hallView() {
   const active = campaign().active;
   return `<div class="hall-empty"><div aria-hidden="true">${mvpCard(club(active) ?? placeholderTeam, {})}</div><h2>Ainda não há títulos.</h2><p>Quando fores campeão, regista o título aqui.</p><button class="primary-button" data-action="${active ? 'win' : 'explore'}" ${active ? `data-id="${active}"` : ''}>${active ? 'Registar título' : 'Escolher clube'}${icon('arrow')}</button></div>`;
  }
- return `<div class="hall-grid">${records.map((item, index) => ({ item, index })).reverse().map(({ item, index }) => {
+ return `<div class="hall-grid">${records.slice().reverse().map(item => {
   const team = club(item.clubId);
-  return `<article class="hall-entry">${mvpCard(team, item)}<div class="hall-entry-meta"><div><h2>${html(team.name)}</h2><p>${epochs(item.seasons)} · ${index + 1}.º título</p></div><button class="quiet-button" data-action="edit" data-id="${team.id}" aria-label="Editar título do ${html(team.name)}">Editar ${icon('arrow')}</button></div></article>`;
+  return `<article class="hall-entry">${mvpCard(team, item)}<button class="hall-entry-edit" data-action="edit" data-id="${team.id}" aria-label="Editar título do ${html(team.name)}"></button></article>`;
  }).join('')}</div>`;
 }
 export function clubDetail(team) {
